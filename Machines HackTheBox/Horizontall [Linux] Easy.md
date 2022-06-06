@@ -39,13 +39,13 @@ Dans le code de app[.c68eb462.js](http://horizontall.htb/js/app.c68eb462.js) se 
 
 [](http://api-prod.horizontall.htb/reviews)
 
-![Untitled](Horizontall%20%5BLinux%5D%20Easy%207ea53f92d1db4bca80ec01893b62720a/Untitled.png)
+![Untitled](Horizontall%20%5BLinux%5D%20Easy/Untitled.png)
 
 On remodifie notre hosts
 
 `echo "10.10.11.105 api-prod.horizontall.htb" | sudo tee -a /etc/hosts`
 
-![Untitled](Horizontall%20%5BLinux%5D%20Easy%207ea53f92d1db4bca80ec01893b62720a/Untitled%201.png)
+![Untitled](Horizontall%20%5BLinux%5D%20Easy/Untitled%201.png)
 
 Nous sommes donc sur un sous-domaine du site précédent nous pouvons énumerer le site
 
@@ -89,7 +89,7 @@ En même temps nous mettons un listener `nc -lvnp 1234`
 
 Nous avons maintenant un accées admin sur le panel du CMS et sur la machine en tant que strapi.
 
-![Untitled](Horizontall%20%5BLinux%5D%20Easy%207ea53f92d1db4bca80ec01893b62720a/Untitled%202.png)
+![Untitled](Horizontall%20%5BLinux%5D%20Easy/Untitled%202.png)
 
 # — 3.Mouvement Latéral —
 
@@ -136,7 +136,7 @@ Avec ce site [https://www.speedguide.net/port.php?port=3306](https://www.speedgu
 
 - curl 127.0.0.1:8000 Est un nouveau sous domaine du site utilisant Laravel
 
-![Untitled](Horizontall%20%5BLinux%5D%20Easy%207ea53f92d1db4bca80ec01893b62720a/Untitled%203.png)
+![Untitled](Horizontall%20%5BLinux%5D%20Easy/Untitled%203.png)
 
 ## Accées par SSH
 
@@ -152,7 +152,7 @@ On se créé un tunnel sur le port 8000 :
 
 Maintenant que nous avons un tunnel nous pouvons aller sur [http://localhost](http://localhost):8000 
 
-![Untitled](Horizontall%20%5BLinux%5D%20Easy%207ea53f92d1db4bca80ec01893b62720a/Untitled%204.png)
+![Untitled](Horizontall%20%5BLinux%5D%20Easy/Untitled%204.png)
 
 ## Exploitation Final
 
