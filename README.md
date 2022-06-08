@@ -1,7 +1,7 @@
 # CTF-WriteUp
 WriteUp de mes CTF Uniquement en Français pour le moment
 
-# Déchiffrer un WriteUp de Challenge/Machine :
+# Déchiffrer un WriteUp de Challenge/Machine Actif:
 1. Faire La Box et récupérer le root flag
 2. Aller sur [hat.sh](https://hat.sh/) et choisir l'option "Decryption"
 3. Mettre le writeUp .enc
